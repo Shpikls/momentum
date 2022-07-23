@@ -20,3 +20,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### Layout
+
+The layout is located at [figma link](https://www.figma.com/file/MBnYFR3vcskeWClKz2iWpl/Momentum?node-id=2%3A3)
