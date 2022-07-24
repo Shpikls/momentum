@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import styled from 'styled-components'
 import { getTime } from '../helpers/getTime'
 
 export const Time = () => {
@@ -10,5 +11,13 @@ export const Time = () => {
     }, 1000)
   }, [])
 
-  return <span>{time}</span>
+  return <TimeContainer>{time}</TimeContainer>
 }
+
+const TimeContainer = styled.span`
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 174px;
+  
+  margin-bottom: 16px;
+`
